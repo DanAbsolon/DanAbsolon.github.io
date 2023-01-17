@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+@font-face {
+    font-family: "Itim";
+    src: url("../fonts/Itim-Regular.ttf") format('truetype');
+}
+
+* {
+	font-family: 'Itim';
+/*	overflow: auto;*/
+	box-sizing: border-box;
+}
+
+body {
+	align-self: flex-start;
+}
+
+p, h2, h3, h4 {
+	margin: 0;
+}
+
+p, h1, h2, h3, img {
+	margin-bottom: 20px;
+}
+
+nav {
+	font-size: 120%;
+}
+
+p {
+	font-size: 120%;
+}
+
+h4 {
+	font-size: 130%;
+}
+
+h3 {
+	font-size: 140%;
+}
+
+h2 {
+	font-size: 150%;
+}
+
+h1 {
+	font-size: 180%;
+}
+
+h2 {
+	padding: 10px 0px;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #3197d6;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+.three-nav-buttons {
+	padding-right: 10px;
+}
+
+a {
+	color: black;
+}
+
+.about a {
+	color: white;
+}
+
+.container-to-create-margins {
+	max-width: 50%;
+}
+
+a:hover { 
+  color: red;
+}
+
+.download-cv {
+	border-radius: 7px;
+	border: solid red;
+}
+
+.intro {
+	background-color: #3197d6;
+	margin: 0px;
+	display: flex;
+	justify-content: center;
+	height: 100%;
+	padding: 75px;
+    text-align: center;
+}
+
+.brief-intro-text {
+	padding-top: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.intro h1 {
+	padding-top: 50px;
+}
+
+.brief-intro {
+	padding: 25px;
+}
+
+.about {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #2a3749;
+	color: white;
+	margin: 0px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.container-for-image-and-text-in-about {
+	display: flex;
+	justify-content: center;
+	flex-wrap: ;
+/*	margin: 50px;
+*/	max-width: 55%;
+}
+
+/*.container-for-text-in-about {
+	padding-right: 50px;
+	padding-left: 50px;
+}
+*/
+#photo-of-me {
+	margin-top: 20px;
+}
+
+
+.portfolio {
+	background-color: #3197d6;
+	padding-top: 50px;
+	margin: 0px;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 25px;
+}
+
+.project {
+	border: solid;
+	margin-bottom: 25px;
+}
+
+.project-content {
+	display: flex;
+	justify-content: space-around;
+/*	flex-wrap: wrap;
+*/}
+
+.project-content img, h3 {
+	margin-right: 25px;
+	margin-left: 5px;
+}
+
+.contact {
+	padding-top: 50px;
+/*	padding-left: 50px;
+	padding-right: 50px;
+*/	background-color: #2a3749;
+	color: white;
+	margin: 0px;
+	padding-bottom: 75px;
+	display: flex;
+	justify-content: center;
+}
+
+.container-for-all-stuff-in-contact {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin: 0px;
+}
+
+.contact-links {
+	display: flex;
+	justify-content: center;
+	margin: 0px;
+}
+
+footer {
+	background-color: #3197d6;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+	padding: 0px;
+	margin: 0px;
+	display: flex;
+	justify-content: space-between;
+}
+
+footer p {
+	padding: 15px;
+	margin: 0px;
+	/*padding-left: 5px;
+	padding-right: 5px;*/
+}
+
+@media screen and (max-width: 1550px) {
+
+.project-content {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.container-for-image-and-text-in-about {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+}
+
+@media screen and (max-width: 1000px) {
+
+
+.container-to-create-margins {
+	max-width: 55%;
+}
