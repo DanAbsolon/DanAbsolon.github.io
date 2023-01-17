@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+@font-face {
+    font-family: "Itim";
+    src: url("../fonts/Itim-Regular.ttf") format('truetype');
+}
+
+* {
+	font-family: 'Itim';
+/*	overflow: auto;*/
+	box-sizing: border-box;
+}
+
+body {
+/*	display: flex;*/
+	align-self: flex-start;
+	
+}
+
+p, h2, h3, h4 {
+	margin: 0;
+}
+
+h2 {
+	padding: 10px 0px;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #3197d6;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+a {
+	color: black;
+}
+
+.box {
+	max-width: 50%;
+}
+
+a:hover { 
+  color: red;
+}
+
+.download-cv {
+	border-radius: 25px;
+	border: solid red;
+}
+
+.intro {
+	background-color: #3197d6;
+	margin: 0px;
+	display: flex;
+	justify-content: space-evenly;
+	height: 100%;
+	padding: 75px;
+}
+
+.brief-intro {
+	padding: 25px;
+}
+
+.about {
+	background-color: #2a3749;
+	color: white;
+	margin: 0px;
+	display: flex;
+	justify-content: center;
+}
+
+.container-for-image-and-text-in-about {
+	display: flex;
+	justify-content: center;
+	margin: 50px;
+	max-width: 55%;
+}
+
+.container-for-text-in-about {
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+
+.container-for-text-in-about p, h2 {
+	margin-bottom: 20px;
+}
+
+#photo-of-me {
+	margin-top: 20px;
+}
+
+
+.portfolio {
+	background-color: #3197d6;
+	margin: 0px;
+}
+
+.contact {
+	background-color: #2a3749;
+	color: white;
+	padding-bottom: 25px;
+}
+
+
+footer {
+	background-color: #3197d6;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
