@@ -23,28 +23,38 @@ p, h1, h2, h3, img {
 	margin-bottom: 20px;
 }
 
+html {
+
+  font-size: 10px
+
+}
+
 nav {
-	font-size: 120%;
+	font-size: 2rem;
+}
+
+a {
+	font-size: 2rem;
 }
 
 p {
-	font-size: 120%;
+	font-size: 2rem;
 }
 
 h4 {
-	font-size: 130%;
+	font-size: 2.1rem;
 }
 
 h3 {
-	font-size: 140%;
+	font-size: 2.5rem;
 }
 
 h2 {
-	font-size: 150%;
+	font-size: 3rem;
 }
 
 h1 {
-	font-size: 180%;
+	font-size: 4rem;
 }
 
 h2 {
@@ -123,6 +133,10 @@ a:hover {
     text-align: center;
 }
 
+.container-for-image-and-text-in-intro {
+	position: relative;
+}
+
 .brief-intro-text {
 	padding-top: 50px;
 	display: flex;
@@ -150,17 +164,15 @@ a:hover {
 
 .arrow {
     position: absolute;
-    bottom: 5px;
-    left: 0;
-    width: 100%;
-    font-size: 55px;
+    bottom: 50px;
+	left: 47.5%;
     text-align: center;
 }
 
 .arrow i {
     position: relative;
     animation: alternate bounce 0.7s infinite;
-    color: #ffffff;
+    color: #2a3749;
 }
 
 .arrow-link:hover {
@@ -284,4 +296,55 @@ footer p {
 
 .container-to-create-margins {
 	max-width: 55%;
+}
+
+}
+
+
+@media screen and (max-height: 860px) {
+
+
+/*#windows-image {
+	width: 60%;
+}
+*/
+.intro h1 {
+	padding-top: 0px;
+}
+
+.brief-intro {
+	padding: 0px;
+}
+
+
+@media screen and (max-height: 650px) {
+
+
+.container-for-image-and-text-in-about {
+	padding: 0;
+	margin: 0;
+}
+
+
+#windows-image {
+	display: none;
+}
+
+
+}
+
+@media screen and (max-height: 450px) {
+
+.intro {
+		padding: 35px;
+	}
+
+}
+
+@media screen and (max-height: 350px) {
+
+.intro {
+		padding: 20px;
+	}
+
 }
