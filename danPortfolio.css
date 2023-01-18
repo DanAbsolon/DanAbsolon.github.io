@@ -71,6 +71,31 @@ a {
 	color: black;
 }
 
+
+.brief-intro-text {
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+
+@keyframes bounce {
+    0% {
+        bottom: 0;
+    }
+
+    100% {
+        bottom: 8px;
+    }
+}
+
+i {
+	position: relative;
+	margin-top: 20%;
+    animation: bounce 0.5s; 
+    animation-direction: alternate; 
+    animation-iteration-count: infinite; 
+}
+
 .about a {
 	color: white;
 }
@@ -111,6 +136,35 @@ a:hover {
 
 .brief-intro {
 	padding: 25px;
+}
+
+@keyframes bounce {
+    0% {
+        bottom: 0;
+    }
+
+    100% {
+        bottom: 8px;
+    }
+}
+
+.arrow {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    width: 100%;
+    font-size: 55px;
+    text-align: center;
+}
+
+.arrow i {
+    position: relative;
+    animation: alternate bounce 0.7s infinite;
+    color: #ffffff;
+}
+
+.arrow-link:hover {
+	color: black;
 }
 
 .about {
