@@ -7,12 +7,14 @@
 
 * {
 	font-family: 'Itim';
-/*	overflow: auto;*/
-	box-sizing: border-box;
+/*	overflow: auto;
+*/	box-sizing: border-box;
+	
 }
 
 body {
 	align-self: flex-start;
+    margin: 0;
 }
 
 p, h2, h3, h4 {
@@ -81,6 +83,9 @@ a {
 	color: black;
 }
 
+section {
+	padding: 50px 0;
+}
 
 .brief-intro-text {
 	display: flex;
@@ -113,6 +118,9 @@ i {
 .container-to-create-margins {
 	max-width: 50%;
 }
+
+
+
 
 a:hover { 
   color: red;
@@ -177,6 +185,10 @@ a:hover {
 
 .arrow-link:hover {
 	color: black;
+}
+
+.container-to-create-margins {
+	max-width: 50%;
 }
 
 .about {
@@ -295,7 +307,7 @@ footer p {
 
 
 .container-to-create-margins {
-	max-width: 55%;
+	max-width: 50%;
 }
 
 }
