@@ -7,8 +7,7 @@
 
 * {
 	font-family: 'Itim';
-/*	overflow: auto;
-*/	box-sizing: border-box;
+	box-sizing: border-box;
 	
 }
 
@@ -72,7 +71,7 @@ nav {
     padding: 15px;
     display: flex;
     justify-content: space-between;
-    z-index: 2;
+	z-index: 2;
 }
 
 .three-nav-buttons {
@@ -187,10 +186,6 @@ a:hover {
 	color: black;
 }
 
-.container-to-create-margins {
-	max-width: 50%;
-}
-
 .about {
 	padding-top: 50px;
 	padding-bottom: 50px;
@@ -207,7 +202,7 @@ a:hover {
 	justify-content: center;
 	flex-wrap: ;
 /*	margin: 50px;
-*/	max-width: 55%;
+*/	max-width: 50%;
 }
 
 /*.container-for-text-in-about {
@@ -236,9 +231,8 @@ a:hover {
 
 .project-content {
 	display: flex;
-	justify-content: space-around;
-/*	flex-wrap: wrap;
-*/}
+	flex-wrap: nowrap;
+}
 
 .project-content img, h3 {
 	margin-right: 25px;
@@ -261,7 +255,7 @@ a:hover {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-	margin: 0px;
+	margin: 0px;	
 }
 
 .contact-links {
@@ -288,7 +282,7 @@ footer p {
 	padding-right: 5px;*/
 }
 
-@media screen and (max-width: 1550px) {
+@media screen and (max-width: 1700px) {
 
 .project-content {
 	display: flex;
@@ -308,6 +302,20 @@ footer p {
 
 .container-to-create-margins {
 	max-width: 50%;
+}
+
+}
+
+
+@media screen and (max-width: 410px) {
+
+
+html {
+	font-size: 8px;
+}
+
+.project-image {
+	max-width: 75%;
 }
 
 }
