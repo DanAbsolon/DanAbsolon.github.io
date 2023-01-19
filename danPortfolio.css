@@ -25,9 +25,7 @@ p, h1, h2, h3, img {
 }
 
 html {
-
-  font-size: 10px
-
+  font-size: 10px;
 }
 
 nav {
@@ -82,6 +80,11 @@ a {
 	color: black;
 }
 
+.contact-links a  {
+	color: #f1534d;
+	font-size: 5rem;
+}
+
 section {
 	padding: 50px 0;
 }
@@ -92,17 +95,8 @@ section {
 	position: relative;
 }
 
-@keyframes bounce {
-    0% {
-        bottom: 0;
-    }
 
-    100% {
-        bottom: 8px;
-    }
-}
-
-i {
+i .arrow  {
 	position: relative;
 	margin-top: 20%;
     animation: bounce 0.5s; 
@@ -117,9 +111,6 @@ i {
 .container-to-create-margins {
 	max-width: 50%;
 }
-
-
-
 
 a:hover { 
   color: red;
@@ -179,11 +170,11 @@ a:hover {
 .arrow i {
     position: relative;
     animation: alternate bounce 0.7s infinite;
-    color: #2a3749;
+    color: black;
 }
 
-.arrow-link:hover {
-	color: black;
+.arrow i:hover {
+	color: red;
 }
 
 .about {
@@ -201,15 +192,9 @@ a:hover {
 	display: flex;
 	justify-content: center;
 	flex-wrap: ;
-/*	margin: 50px;
-*/	max-width: 50%;
+	max-width: 50%;
 }
 
-/*.container-for-text-in-about {
-	padding-right: 50px;
-	padding-left: 50px;
-}
-*/
 #photo-of-me {
 	margin-top: 20px;
 }
@@ -241,9 +226,7 @@ a:hover {
 
 .contact {
 	padding-top: 50px;
-/*	padding-left: 50px;
-	padding-right: 50px;
-*/	background-color: #2a3749;
+	background-color: #2a3749;
 	color: white;
 	margin: 0px;
 	padding-bottom: 75px;
@@ -262,6 +245,12 @@ a:hover {
 	display: flex;
 	justify-content: center;
 	margin: 0px;
+	padding-top: 25px;
+}
+
+.contact-link {
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 footer {
@@ -282,7 +271,7 @@ footer p {
 	padding-right: 5px;*/
 }
 
-@media screen and (max-width: 1700px) {
+@media screen and (max-width: 1800px) {
 
 .project-content {
 	display: flex;
