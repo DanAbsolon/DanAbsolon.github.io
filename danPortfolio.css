@@ -8,7 +8,6 @@
 * {
 	font-family: 'Itim';
 	box-sizing: border-box;
-	
 }
 
 body {
@@ -62,7 +61,7 @@ nav {
     top: 0;
     left: 0;
     background: #3197d6;
-    padding: 15px;
+    padding: 10px 15px 0px 15px;
     display: flex;
     justify-content: space-between;
 	z-index: 2;
