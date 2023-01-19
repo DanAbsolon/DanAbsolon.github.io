@@ -56,10 +56,6 @@ h1 {
 	font-size: 4rem;
 }
 
-h2 {
-	padding: 10px 0px;
-}
-
 nav {
     position: fixed;
     width: 100%;
@@ -192,7 +188,6 @@ a:hover {
 .container-for-image-and-text-in-about {
 	display: flex;
 	justify-content: center;
-	flex-wrap: ;
 	max-width: 50%;
 }
 
@@ -237,9 +232,8 @@ a:hover {
 
 .container-for-all-stuff-in-contact {
 	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	margin: 0px;	
+	flex-wrap: wrap;
+	margin: 0px;
 }
 
 .contact-links {
@@ -250,8 +244,7 @@ a:hover {
 }
 
 .contact-link {
-	padding-left: 15px;
-	padding-right: 15px;
+	padding-right: 30px;
 }
 
 footer {
