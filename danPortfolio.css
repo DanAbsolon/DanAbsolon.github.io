@@ -277,10 +277,17 @@ footer p {
 
 @media screen and (max-width: 1800px) {
 
+.project-title {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
 .project-content {
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .container-for-image-and-text-in-about {
