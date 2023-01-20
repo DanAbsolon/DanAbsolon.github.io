@@ -62,7 +62,7 @@ nav {
     top: 0;
     left: 0;
     background: #3197d6;
-    padding: 15px;
+    padding: 10px 15px 10px 15px;
     display: flex;
     justify-content: space-between;
 	z-index: 2;
@@ -116,7 +116,7 @@ a:hover {
 .download-cv {
 	border-radius: 7px;
 	border: solid red;
-	padding: 5px;
+	padding: 0px;
 }
 
 .intro {
@@ -314,13 +314,13 @@ html {
 }
 
 
-@media screen and (max-height: 860px) {
+@media screen and (max-height: 870px) {
 
 
-/*#windows-image {
-	width: 60%;
+#windows-image {
+	width: 70%;
 }
-*/
+
 .intro h1 {
 	padding-top: 0px;
 }
@@ -328,7 +328,7 @@ html {
 .brief-intro {
 	padding: 0px;
 }
-
+}
 
 @media screen and (max-height: 650px) {
 
