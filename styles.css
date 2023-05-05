@@ -138,7 +138,6 @@ a:hover {
 	margin: 0px;
 	display: flex;
 	justify-content: center;
-	flex-wrap: wrap;
 }
 
 ul {
@@ -153,11 +152,17 @@ ul {
 .container-for-image-and-text-in-about {
 	display: flex;
 	justify-content: center;
+	flex-direction: column;
 	max-width: 50%;
+}
+
+.container-for-image-in-about {
+	justify-content: center;
 }
 
 #photo-of-me {
 	margin-top: 20px;
+	justify-content: center;
 }
 
 
@@ -173,6 +178,7 @@ ul {
 .project {
 	border: solid;
 	margin-bottom: 25px;
+	flex-direction: row;
 }
 
 .project-content {
@@ -252,11 +258,6 @@ footer p {
 	padding-right: 10px;
 }
 
-.container-for-image-and-text-in-about {
-	display: flex;
-	flex-wrap: wrap;
-}
-
 }
 
 @media screen and (max-width: 1500px) {
@@ -275,7 +276,17 @@ footer p {
 	}
   }
   
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 500px) {
+
+ul {
+	-moz-column-count: 2;
+	-moz-column-gap: 20px;
+	-webkit-column-count: 2;
+	-webkit-column-gap: 20px;
+	column-count: 2;
+	column-gap: 20px;
+}
+	
 
 a:hover {
 	color: inherit;
@@ -372,11 +383,6 @@ a:hover {
 
 @media screen and (max-height: 650px) {
 
-
-.container-for-image-and-text-in-about {
-	padding: 0;
-	margin: 0;
-}
 
 #windows-image {
 	width: 45%;
