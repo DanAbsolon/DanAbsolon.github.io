@@ -46,7 +46,7 @@
 				<p>Outside work, I enjoy playing guitar, reading novels, exercising, practising my elementary
 					Vietnamese, trying to meditate, and learning about linguistics.</p>
 				<p>At i0 Academy my studies included the following concepts:
-				<ul>
+				<ul class="syllabus-bullet-points">
 					<li>Agile</li>
 					<li>HTML</li>
 					<li>CSS</li>
@@ -71,11 +71,6 @@
 				</ul>
 				<p>Feel free to browse the projects below to gauge my coding competencies.</p>
 			</article>
-			<!-- <div class="container-for-image-in-about">
-				<img id="photo-of-me" img
-					src="https://lh3.googleusercontent.com/a/AEdFTp6WY4Ej7I-rAKYjfmsA3DnIcXg3Ad3tTjwqu6sARQ=s576-p-no"
-					alt="a photo of Dan" width="175px" height="#">
-			</div> -->
 		</div>
 	</section>
 
@@ -86,20 +81,28 @@
 			<div class="projects-container">
 
 				<div class="project">
-					<h3 class="project-title">Office Sign In App</h3>
+					<h3 class="project-title">MERN Stack App: Office Sign In</h3>
 					<div class="project-content">
 						<img class="project-image"
 							src="https://lh3.googleusercontent.com/mITB4aGm6X_1CEBNLbZIe19u5_DBL_hLfE0LgdAjS5SyjGt9Kt12BTL4F4-fY7xkuDzc-kzGl-stjTiAYQ7R_brY0tKb3BJNBEv6XrLY4mBIDDV-0GS29HejQvstZyM8ZRXKYOJJ=w2400"
 							width="175px" alt="A nice image for the first project">
 						<div class="project-words">
-							<p> A MERN stack sign in app for visitors to i0 Academy. </p> <p> On entry, visitors can send their name, company, and sign in time to the database. When exiting the building, they can select themselves from a name search and sign out. </p> <p> On an admin page, secured by back-end authentication, authorised users can view and sign out (individually or in bulk) all signed in visitors, and view the history of  all previously signed in visitors.  </p>							<div class="links-container">
+							<p> This app is to be used by visitors to, and staff at, i0 Academy. </p>
+							<p> On entry, visitors can send their name, company, and sign in time to the database. When
+								exiting the building, they can select themselves from a name search and sign out. </p>
+							<p> On an admin page, secured by back-end authentication, authorised users can view and sign
+								out (individually or in bulk) all signed in visitors, and view the history of all
+								previous visitors. </p>
+							<p> In this project, I worked on the back-end: database connection, middleware, and
+								end-points. </p>
+							<div class="links-container">
 								<div class="project-link">
 									<a target="_blank" href="https://github.com/DanAbsolon/Office-sign-in">Github <i
 											class="fab fa-github-square"></i></a>
 								</div>
 								<div class="project-link">
-									<a target="_blank" href="https://visitorapp.2023-williamt.dev.io-academy.uk/">Live <i
-											class="fas fa-external-link-square-alt"></i></a>
+									<a target="_blank" href="https://visitorapp.2023-williamt.dev.io-academy.uk/">Live
+										<i class="fas fa-external-link-square-alt"></i></a>
 								</div>
 							</div>
 						</div>
@@ -108,16 +111,19 @@
 
 
 				<div class="project">
-					<h3 class="project-title">VelociType</h3>
+					<h3 class="project-title">JavaScript Game: VelociType</h3>
 					<div class="project-content">
 						<img class="project-image"
 							src="https://lh3.googleusercontent.com/CKo5zcQXc4FEccyRp3qkr6GHClImIajVEMhDt22MoFLhrlFGiH5SpMOvfx8nplegD9a8lle5MveWsPU6zfYayUAqEQ-JBFtvOfZNKIeHmuSVVn1aMC8_gJheuH-xi2Ur1FIN7_Y9=w2400"
 							width="175px" alt="A nice image for the first project">
 						<div class="project-words">
-							<p> This Javascript game fetches randomised text from an API to test the speed and accuracy of the user's typing. </p>
-							<p> On first keydown, a 60 second countdown starts. The user types as many words from the
-							text as they can. After 60 seconds, the user gets their speed and accuracy results. </p>
-							<p> We also created functionality for audio-only gameplay with the Chrome Screen Reader.</p>
+							<p> This app fetches randomised text from an API to create a typing speed game.</p>
+							<p>On keydown, a 60 second countdown starts. Each word typed (including punctuation and capitalisation) is checked on spacebar.
+								If correct, the word becomes green in the source text; red if incorrect. </p>
+								<p>After 60 seconds, the user gets their speed and accuracy results.</p>
+							<p> We also
+								created functionality for audio-only gameplay with the Chrome Screen Reader.</p>
+							</p>
 							<div class="links-container">
 								<div class="project-link">
 									<a target="_blank" href="https://github.com/tauroid/VelociType">Github <i
@@ -133,7 +139,7 @@
 				</div>
 
 				<div class="project">
-					<h3 class="project-title">PHP/SQL Collector App</h3>
+					<h3 class="project-title">PHP/SQL Collector App: A Bookshelf</h3>
 					<div class="project-content">
 						<div class="container-for-project-image">
 							<img class="project-image"
@@ -141,8 +147,13 @@
 								width="175px" alt="A nice image for the first project">
 						</div>
 						<div class="project-words">
-							<p>In this individual project a database of books were displayed on an HTML/CSS front-end.
-								Any invalid data caused exceptions to be thrown, caught and their messages logged.</p>
+							<p>In this solo project, isolated values in the database are woven into cohesive sentences
+								to be displayed on the front-end. </p>
+							<p>For example, a PHP function checks the last character in the author's name. If this is
+								"s", the possessive marker used in the HTML is " ' ", otherwise the possessive marker is
+								"'s".</p>
+							</p>
+							<p>Any invalid data causes exceptions to be thrown, caught and their messages logged.</p>
 							<div class="links-container">
 								<div class="project-link">
 									<a target="_blank" href="https://github.com/DanAbsolon/collectorProjectDan">Github

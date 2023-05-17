@@ -42,7 +42,7 @@ p {
 }
 
 ul {
-	font-size: 1.5rem;
+	font-size: 2rem;
 }
 
 h4 {
@@ -147,13 +147,14 @@ a:hover {
 	justify-content: center;
 }
 
-ul {
+.syllabus-bullet-points {
 	-moz-column-count: 3;
 	-moz-column-gap: 20px;
 	-webkit-column-count: 3;
 	-webkit-column-gap: 20px;
 	column-count: 3;
 	column-gap: 20px;
+	font-size: 1.5rem;
 }
 
 .container-for-image-and-text-in-about {
@@ -161,17 +162,6 @@ ul {
 	justify-content: center;
 	flex-direction: column;
 }
-
-.container-for-image-in-about {
-	display: flex;
-	justify-content: center;
-}
-
-#photo-of-me {
-	margin-top: 20px;
-	justify-content: center;
-}
-
 
 .portfolio {
 	background-color: #3197d6;
@@ -318,10 +308,10 @@ footer p {
 
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 380px) {
 
 	html {
-		font-size: 8px;
+		font-size: 7.5px;
 	}
 
 	#windows-image {
@@ -330,10 +320,10 @@ footer p {
 
 }
 
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 350px) {
 
 	html {
-		font-size: 7px;
+		font-size: 6.5px;
 	}
 
 
