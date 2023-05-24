@@ -103,6 +103,7 @@ section {
 
 .container-to-create-margins {
 	max-width: 60%;
+	min-width: 60%;
 }
 
 a:hover {
@@ -227,10 +228,8 @@ img {
 	justify-content: center;
 }
 
-.container-for-all-stuff-in-contact {
-	display: flex;
-	flex-wrap: wrap;
-	margin: 0px;
+.contact-text {
+	display: block;
 }
 
 .contact-links {
