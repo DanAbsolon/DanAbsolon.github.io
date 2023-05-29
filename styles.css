@@ -181,7 +181,9 @@ a:hover {
 
 .project-content {
 	display: flex;
-	flex-wrap: nowrap;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
 }
 
 .project-content img,
@@ -193,7 +195,9 @@ h3 {
 
 .project-words {
 	margin-right: 2rem;
+	margin-left: 2rem;
 } 
+
 
 .project-title {
 	text-align: center;
@@ -257,20 +261,6 @@ footer {
 footer p {
 	padding: 15px;
 	margin: 0px;
-}
-
-
-@media only screen and (max-width: 1400px) {
-
-	.project-words {
-		margin-left: 2rem;
-	}
-
-	.project-content {
-		display: flex;
-		justify-content: space-around;
-		flex-wrap: wrap;
-	}
 }
 
 @media only screen and (max-width: 767px) {
